@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.theme.min.css">
+	<style type="text/css">
+		.container{
+			margin-top: 20px;
+		}
+		.panel{
+			margin-top: 15px;
+			border-color: cyan;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+
+
+<div class="container" id="mycontainer">
+	<div class="row">
+		<div class="col-xs-4 col-xs-offset-4">
+			<div class="panel" style="align-items: center; background-color: #47add5">
+				<div class="panel-heading" style="text-align: center;"><h3>Sign In</h3></div>
+				<div class="panel-body" style="background-color: #cccccc">
+	             <form name="loginform" method="post" action="">
+				<div class="form-group">
+	             <div class="input-group">
+					<div class="input-group-addon"><span class=" glyphicon glyphicon-user" style="color: blue"></span></div>
+					<input type="text" name="userid" class="form-control"required placeholder="Username"  >
+				    </div>
+			    </div>
+			  <div class="form-group">
+				<div class="input-group">
+					<div class="input-group-addon"><span class="glyphicon glyphicon-envelope" style="color: blue"></span></div>
+				    <input type="text" name="mail" class="form-control" required placeholder=" Enter email" >
+					</div>
+			     </div>
+			     <div class="form-group">
+				<div class="input-group">
+					<div class="input-group-addon"><span class="glyphicon glyphicon-lock" style="color: blue"></span></div>
+				    <input type="password" name="pswrd" class="form-control" required placeholder=" Enter password" >
+					</div>
+			     </div>
+			     <div class="form-group">
+				<div class="input-group">
+					<div class="input-group-addon"><span class="glyphicon glyphicon-lock" style="color: blue"></span></div>
+				    <input type="password" name="pswrd" class="form-control" required placeholder=" Confirm password" >
+					</div>
+			     </div>
+			     <div class="form-group" style="align-items: center;">
+			      <div class="btn-group">
+				   		<input type="submit" class="form-control" value="SignIn" style="background-color: #FFD662;">
+				      </div>
+                     </div>
+				      <div class="btn-group">
+						   <a href="https://www.facebook.com/" style="align-content: center;"> <button type="button" class=" btn btn-primary"  style="width: 100%" style="background-color: #337ab7;" ;>Facebook login </button></a>
+						 </div>
+						</form>
+					</div>
+					<div class="panel-footer"  style="background-color: #47add5"><a href="login.html"><span class="glyphicon glyphicon-backward"></span></a></div>
+         </div>
+       </div>
+   </div>
+</div>
+       
+ 
+ <script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
